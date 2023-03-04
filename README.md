@@ -1,4 +1,7 @@
 # GPT-3.5 Turbo Chatbot Golang Library
+[![Go Report Card](https://goreportcard.com/badge/github.com/8ff/gpt)](https://goreportcard.com/report/github.com/8ff/gpt)
+[![GoDoc](https://godoc.org/github.com/8ff/gpt/pkg/gpt_3_5_turbo?status.svg)](https://godoc.org/github.com/8ff/gpt/pkg/gpt_3_5_turbo)
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/8ff/gpt/blob/main/LICENSE)
 
 This repository contains a Golang implementation of a chatbot using the OpenAI GPT-3.5 Turbo API. The chatbot is able to generate human-like responses to user queries.
 

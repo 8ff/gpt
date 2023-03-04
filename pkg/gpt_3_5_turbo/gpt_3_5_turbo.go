@@ -9,7 +9,7 @@ import (
 
 type Params struct {
 	API_TOKEN          string      `json:"api_token,omitempty"`            // This will be stripped from the request before sending to the API. Required.
-	StripNewline       bool        `json:"strip_newline,omitempty"`        // If set, the API will strip newlines from the beggining of the generated text. Optional, defaults to false.
+	StripNewline       bool        `json:"strip_newline,omitempty"`        // If set, the API will strip newlines from the beginning of the generated text. Optional, defaults to false.
 	Request            ChatRequest `json:"request,omitempty"`              // The request body to send to the API. Required.
 	KeepMessageHistory bool        `json:"keep_message_history,omitempty"` // If set, the message history will be kept in the response. Optional, defaults to false.
 	MessageHistory     []Message   `json:"message_history,omitempty"`      // The message history to use. Optional, defaults to null.
