@@ -1,3 +1,4 @@
+![logo](media/logo.svg "GPT-3.5 Turbo Chatbot Golang Library")
 # GPT-3.5 Turbo Chatbot Golang Library
 [![Go Report Card](https://goreportcard.com/badge/github.com/8ff/gpt)](https://goreportcard.com/report/github.com/8ff/gpt)
 [![GoDoc](https://godoc.org/github.com/8ff/gpt/pkg/gpt_3_5_turbo?status.svg)](https://godoc.org/github.com/8ff/gpt/pkg/gpt_3_5_turbo)
