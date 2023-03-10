@@ -71,7 +71,7 @@ The single request app is located in `cmd/singleRequest`. To use the single requ
 go run main.go
 ```
 
-![](media/singleRequest.svg "Single Request App")
+![](media/singleRequest.gif "Single Request App")
 
 
 The app will prompt you for a message, and generate a response based on your input.
@@ -84,7 +84,7 @@ The chat app is located in `cmd/chat`. To use the chat app, set the `API_TOKEN` 
 go run main.go
 ```
 
-![](media/chat.svg "Chat App")
+![](media/chat.gif "Chat App")
 
 
 The app will prompt you for a message, and generate a response based on your input. You can continue chatting with the bot until you type "exit".
