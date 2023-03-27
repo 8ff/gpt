@@ -37,7 +37,7 @@ func main() {
 		StripNewline: true,
 		Request: gpt.ChatRequest{
 			Model: "gpt-3.5-turbo",
-			Model: "gpt-4",
+			// Model: "gpt-4",
 		},
 	})
 	if err != nil {
