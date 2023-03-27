@@ -17,6 +17,9 @@ func main() {
 		API_TOKEN:          token,
 		KeepMessageHistory: true,
 		StripNewline:       true,
+		Request: gpt.ChatRequest{
+			Model: "gpt-3.5-turbo",
+		},
 	})
 	if err != nil {
 		fmt.Println(err)
