@@ -6,8 +6,6 @@
 
 This repository contains a Golang implementation of a chatbot using the OpenAI GPT-3.5 Turbo as well as the new GPT-4 API. The chatbot is able to generate human-like responses to user queries.
 
-# 🎉 GPT-4 is now available! 🎉
-
 ## Library
 The core of this chatbot implementation are the gpt_3_5_turbo and gpt_4 packages, which are Golang libraries for interacting with the OpenAI GPT-3.5 Turbo and GPT-4 API. These libraries provide a simple API for sending text queries to the GPT-3.5 and GPT-4 models and receiving human-like responses in return. They include support for features like setting the API token, configuring the request, and managing message history. With these libraries, developers can easily incorporate the power of the GPT-3.5 & GPT-4 models into their Golang applications and build intelligent chatbots or other NLP-driven tools.
 
@@ -37,7 +35,7 @@ func main() {
 		StripNewline: true,
 		Request: gpt.ChatRequest{
 			Model: "gpt-3.5-turbo",
-			// Model: "gpt-4",
+			// Model: "gpt-4-0613",
 		},
 	})
 	if err != nil {
